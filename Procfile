@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -Ddw.server.connector.port=$PORT -cp target/classes:target/dependency/* com.wego.airlines.AirlineApplication server src/main/resources/config.yml
